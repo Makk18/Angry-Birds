@@ -1,1 +1,7 @@
 # Angry-Birds
+
+UML and UML case diagrams 
+For that we are using LucidChart Software - 
+https://www.google.com/search q=lucidchart&rlz=1C1JZAP_enIN1115IN1115&oq=lucid&gs_lcrp=EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyDAgAEEUYORixAxiABDINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDIKCAQQABixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIQCAcQABiDARixAxiABBiKBTIKCAgQABixAxiABDIKCAkQABixAxiABNIBCTQyODdqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8
+
+
