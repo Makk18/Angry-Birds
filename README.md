@@ -24,7 +24,6 @@ Birds
 3.White bird --> medium speed, ability drop egg
 4.Yellow bird --> faster speed ability
 5.Terence bird ( big red bird ) --> more impact and damage abiltiy 
-6.Blue bird --> medium speed, ability split into three smaller blue birds 
 
 
 Pigs 
@@ -48,6 +47,24 @@ Theme
 1. Forest 
 2. Japan
 3. Himalaya
+
+
+
+
+
+Use Case 
+1.User starts the Home Page
+----> 1. View myflock
+----> 2. Load game
+----> 3. New game ----> select level
+
+
+User enters the level
+1. Starts Stretching
+   
+
+
+
 
 
 
