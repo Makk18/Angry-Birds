@@ -3,6 +3,9 @@
 UML and UML case diagrams. For that we are using LucidChart Software - 
 https://lucid.app/lucidchart/1512c635-a9ab-4f1a-ad98-dd0ce128c3df/edit?viewport_loc=-752%2C-355%2C3933%2C1819%2CHWEp-vi-RSFO&invitationId=inv_2c810ab5-e396-41da-8c4c-b32aecb27aee
 
+UML Use Case - 
+https://lucid.app/lucidchart/5c5190a1-8a69-4ed8-b0c4-28152f49835e/edit?viewport_loc=-451%2C-792%2C5739%2C2498%2C.Q4MUjXso07N&invitationId=inv_78d1f8e2-50cf-4a2b-a154-d2bf7e7dccb1
+
 
 I have tried to make the game simple 
 
