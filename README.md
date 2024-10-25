@@ -144,6 +144,10 @@ different themese will be handled later.
 
 Class relationships is implemented through UML and Use Case Diagram
 
+UML Diagram - https://lucid.app/lucidchart/8f251e85-7c0e-457a-8d16-44ce9aa0a5b3/edit?viewport_loc=-952%2C-17336%2C26285%2C12527%2C0_0&invitationId=inv_a5b779b6-f14d-48b6-b77d-43e6469c78ee
+
+Use Case Diagram - https://lucid.app/lucidchart/a5707ff0-7418-4b7a-ad10-40c94d1d468f/edit?viewport_loc=161%2C-1498%2C4867%2C2922%2C0_0&invitationId=inv_a7bcba06-2223-49b0-8eba-ec743aeab54e
+
 
 
 
