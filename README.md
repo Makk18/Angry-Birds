@@ -129,6 +129,8 @@ https://www.pngwing.com/
 https://libgdx.com/wiki/graphics/2d/scene2d/scene2d
 https://imageresizer.com/
 https://www.remove.bg/
+https://in.pinterest.com/
+https://wallpapercave.com/
 Some pngs and backgrouds have been edited in powerpoint
 
 
