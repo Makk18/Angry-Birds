@@ -55,18 +55,94 @@ Theme
 
 
 
-Use Case 
-1.User starts the Home Page
-----> 1. View myflock
-----> 2. Load game
-----> 3. New game ----> select level
-
-
-User enters the level
-1. Starts Stretching
    
 
+=------ Project Deadline 2  ------
 
+We are using the libgdx to make the basic flow of the angry birds game . Basic Flow here means just the clickable prototype. The workable prototype is required for deadline 3. 
+LigGdX setup was done on 15 Oct. 
+Project name - AngryBirds 
+
+Basic layout is as follows 
+- Loading Screen
+
+- MainMenu Screen - Start Game, Load Game, ViewmyFlock, Exit buttons are there in the MainMenu
+  - Start Game button leads to ->
+    SelectLevel Screen - Level 1, Level 2, Level 3 ( for this deadline only im pointing all the levels to one screen )
+  - Load Game button leads to - >
+    LoadGame Screen - User can load the previously loaded Game
+  - ViewMyFlock button leads to -> 
+    BirdFamily Screen - Contains info about birds - names , powers 
+  - Exit button exits the game
+
+- Selecting a level from the SelectLevel Screen will lead the the MainGame Screen
+  - It has background
+  - Catapult at the left 
+  - The bird on the catapult
+  - Below it is the bird set ( user can choose any bird but after launching he/she cant use the same bird twice unless some extra card is awarded according to the points. This feature is extra, i might or might not include it )
+  - After some distance is the Structure -> Structure is the combination of Blocks and Pigs ( Wood, Glass, Stone, TNT )
+
+ - MainGame Screen has the Pause button at the top right. It will lead to ->
+   -  PauseScreen - Save Game Button , Exit Button ( Leads to the MainMenu ), Resume Button
+   -  LooseScreenbutton
+   -  Winscreenbutton
+
+ - Win Screen ->
+   - If all the Pigs are finished ( This might not be implemented since the game is not workable but screen is made) .. 
+- Loose Screen ->
+   - If all the birds are finished but not the pigs ( this might not implemented since the game is not workable but screen is made )..
+
+
+
+
+Basic Flow -
+User Enters and sees the loading screen for 4 seconds ( as of now ) and then sees the MainMenuScreen , in which he/she can choose to the start game, load the previous game, ViewFlock, Exit,
+Startbutton leads the SelectLevelScreen and display three levels. User can choose any ( as of now ) and a back button ( leads to the Main menu )
+level1- theme not implemented , just simple png files for all levels
+     have the win screena and loose the screen which are target by left and right side button, in the mid is the PauseButton
+         PauseButton has Resume, Save game ( saves current instance ) , exit ( leads to the MainMenu )
+        -  LooseScreenbutton - Select Level( try again screen - 3 seconds delay )
+        -  Winscreenbutton 
+                 - Nextbutton - Level1 -> level2 -> level3 -> Select Level Screen
+                 - Exitbutton- Maine menu
+
+Pause button - 
+Swithces to the Puase screen 
+Resume - back to current level
+Save Game -
+    Saves the current instance of the class.
+    Resume - leads back to the current level
+    Exit - Leads to main Menu
+Exit - Leads to the Main menu
+
+
+
+
+A varied Variety of References have been used - be it the pngs , jps , or the concepts,
+https://libgdx.com/wiki/start/a-simple-game
+https://happycoding.io/tutorials/libgdx/game-screens
+https://libgdx.com/wiki/graphics/2d/spritebatch-textureregions-and-sprites
+https://youtu.be/a8MPxzkwBwo?si=x3NcpJs8ZxIF0uSU
+https://www.remove.bg/upload
+https://imageresizer.com/resize/download/671800170db566a561439b54
+https://www.pngwing.com/
+https://libgdx.com/wiki/graphics/2d/scene2d/scene2d
+https://imageresizer.com/
+https://www.remove.bg/
+Some pngs and backgrouds have been edited in powerpoint
+
+
+// 24/10/24
+Since the buttons were created using the x,y coordinates using the batch.draw ( and according to the latest tutorial we can't do it like that ), ill use tage , Drawable, ImageButton, Texture and Actors implementations in the code to update. 
+Further i had not made the birds classe, pig class and structure class which will be extended or implemented by the sub classes. For now i have hardcoded the blocks so i am not implementing the Structure class. It will be handlded later.
+
+
+// 25/10/2024
+I have made a single pig class. Thier objects have been used to distinguish between the sizes and health. I will update the classes and make separate classes for 3 pigs which inherit a single class pig
+
+different themese will be handled later.
+
+Class relationships is implemented through UML and Use Case Diagram
 
 
 
