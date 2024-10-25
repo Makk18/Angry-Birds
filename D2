@@ -25,6 +25,8 @@ Basic layout is as follows
 
  - MainGame Screen has the Pause button at the top right. It will lead to ->
    -  PauseScreen - Save Game Button , Exit Button ( Leads to the MainMenu ), Resume Button
+   -  LooseScreenbutton
+   -  Winscreenbutton
 
  - Win Screen ->
    - If all the Pigs are finished ( This might not be implemented since the game is not workable but screen is made) .. 
@@ -36,10 +38,25 @@ Basic layout is as follows
 
 Basic Flow -
 User Enters and sees the loading screen for 4 seconds ( as of now ) and then sees the MainMenuScreen , in which he/she can choose to the start game, load the previous game, ViewFlock, Exit,
-Startbutton leads the SelectLevelScreen and display three levels. User can choose any ( as of now )
-level1- theme not implemented , just simple png files 
+Startbutton leads the SelectLevelScreen and display three levels. User can choose any ( as of now ) and a back button ( leads to the Main menu )
+level1- theme not implemented , just simple png files for all levels
      have the win screena and loose the screen which are target by left and right side button, in the mid is the PauseButton
-         PauseButton has Resume, Save game ( not implemented ) , exit ( leads to the MainMenu )
+         PauseButton has Resume, Save game ( saves current instance ) , exit ( leads to the MainMenu )
+        -  LooseScreenbutton - Select Level( try again screen - 3 seconds delay )
+        -  Winscreenbutton 
+                 - Nextbutton - Level1 -> level2 -> level3 -> Select Level Screen
+                 - Exitbutton- Maine menu
+
+Pause button - 
+Swithces to the Puase screen 
+Resume - back to current level
+Save Game -
+    Saves the current instance of the class.
+    Resume - leads back to the current level
+    Exit - Leads to main Menu
+Exit - Leads to the Main menu
+
+
 
 
 A varied Variety of References have been used - be it the pngs , jps , or the concepts,
@@ -50,6 +67,11 @@ https://youtu.be/a8MPxzkwBwo?si=x3NcpJs8ZxIF0uSU
 https://www.remove.bg/upload
 https://imageresizer.com/resize/download/671800170db566a561439b54
 https://www.pngwing.com/
+https://libgdx.com/wiki/graphics/2d/scene2d/scene2d
+https://imageresizer.com/
+https://www.remove.bg/
+Some pngs and backgrouds have been edited in powerpoint
+
 
 // 24/10/24
 Since the buttons were created using the x,y coordinates using the batch.draw ( and according to the latest tutorial we can't do it like that ), ill use tage , Drawable, ImageButton, Texture and Actors implementations in the code to update. 
@@ -57,5 +79,9 @@ Further i had not made the birds classe, pig class and structure class which wil
 
 
 // 25/10/2024
-I have made a single pig class. Thier objects have been used to distinguish between the sizes and health. I will update the classes and make separate classes for 3 pigs which inherit a single class pi
+I have made a single pig class. Thier objects have been used to distinguish between the sizes and health. I will update the classes and make separate classes for 3 pigs which inherit a single class pig
+
 different themese will be handled later.
+
+Class relationships is implemented through UML and Use Case Diagram
+
