@@ -57,7 +57,7 @@ Theme
 
    
 
-=------ Project Deadline 2  ------
+------- Project Deadline 2  ------
 
 We are using the libgdx to make the basic flow of the angry birds game . Basic Flow here means just the clickable prototype. The workable prototype is required for deadline 3. 
 LigGdX setup was done on 15 Oct. 
@@ -147,10 +147,14 @@ different themese will be handled later.
 Class relationships is implemented through UML and Use Case Diagram
 
 UML Diagram - https://lucid.app/lucidchart/8f251e85-7c0e-457a-8d16-44ce9aa0a5b3/edit?viewport_loc=-952%2C-17336%2C26285%2C12527%2C0_0&invitationId=inv_a5b779b6-f14d-48b6-b77d-43e6469c78ee
-
 Use Case Diagram - https://lucid.app/lucidchart/a5707ff0-7418-4b7a-ad10-40c94d1d468f/edit?viewport_loc=161%2C-1498%2C4867%2C2922%2C0_0&invitationId=inv_a7bcba06-2223-49b0-8eba-ec743aeab54e
 
 
-
-
-
+27/10/2024
+-------------------------- STEPS TO RUN THE GAME IN INTELLIJ IDEA -------------------------------------
+  - Step 1: Download the BirdsAngry zip file from the github repository.
+  - Step 2: Unzip the file in desktop.
+  - Step 3: Now Open the Intellij Idea and select the BirdsArgry File and open it.
+  - Step 4: Now Search for 'lwjgl3' file open it, lwjgl3-> src -> main -> java -> com.BirdsAngry.lwjgl3.
+  - Step 5: Now in com.BirdsAngry.lwjgl3, Select Lwjgl3Launcher.
+  - Step 6: Now After opening it, click on the Run option at top right corner and the game will start.
