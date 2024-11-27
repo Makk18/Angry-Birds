@@ -158,3 +158,92 @@ Use Case Diagram - https://lucid.app/lucidchart/a5707ff0-7418-4b7a-ad10-40c94d1d
   - Step 4: Now Search for 'lwjgl3' file open it, lwjgl3-> src -> main -> java -> com.BirdsAngry.lwjgl3.
   - Step 5: Now in com.BirdsAngry.lwjgl3, Select Lwjgl3Launcher.
   - Step 6: Now After opening it, click on the Run option at top right corner and the game will start.
+
+
+
+
+
+
+
+
+-- Project Deadline 3 ---
+
+// 27/11/24
+I had created blocks and pigs through the draw method in render. 
+Now there are separate classes for - 
+   redbird 
+   yellobird
+   bluebird
+   blackbird
+   terencebird
+   pig
+   ironblock
+   glassblock
+   woodblock
+   tnt
+
+these classes extends the reseptive classes and the actor ( Scene2D ) for actions and implemenets serialisable for storing the current state of the objects of the above classes. 
+Objects of these classes are added and removed from the stage based upon the positions and movements.
+
+
+Functioning
+- Physics is not handled for blocks and Pigs ( falling and rolling )
+- User can drag the bird on the catapult and release it , it follows the trajectory withtin the screen window it bounces adding a bouncing effect 
+- if the bird overlaps with the coordinates of the pigs or the blocks the health is reduced
+ - i have set the health for the block to be 1
+ - and for pigs its different based on size 
+ - the the health reaches a particular low then the pig is removed ( less the -50 ) , same with the blocks ( less than 0 )
+
+ The winscreen is displayed if all pigs are dead. Winscreen has exit and next buttons. User can either exit to the Main menu or enter into next level 
+
+ Theres no switch bird method
+ so its sequential , firstbird touches the ground , next bird appears on the catapult. 
+ When the last bird touches the ground loosescreen appears which leads to select level 1 screen
+
+ Serilisation has been implemented
+ When the user clicks the pause button, objects on the screen are serialised based on the current_level_status and stored in the "level1.txt" file. So Save game button acts a dummy only here. theres also resume button which leads to the current_level upon click
+
+ Serialisation is runtime here
+ though its stored and it can be loaded but upon entering the game User doesnt have a current_level status and somehow its necessary to deserialise. 
+
+ For deserialisation , createloadgame class has been implemented. 
+ Upon the load game click, it checks the current_level instance. If its level 1 it deserialise the objects and make the entire screen again based upon the args passed to the createloadgame constructor.
+ same with level2 and level3
+ if theres no current_level instance it simply shows the nosavedgame screen  ( even though its doable to load the saved game from txt file . I have mentioned the same issue above )
+
+ Issues -
+ since the game state is being saved in the render method . There might be issues of bird not appearing based upon the frame rate.
+ since the current_level_status ( which is statis ) has been used for the save and load, there might be issue with loading game. 
+
+Bonus - 
+- blue bird splits into three upon the click
+- even though i had mentioned to include the bombing effect for tnts and blackbird , but the same has not been implemented in view of the shortage of time for the deadline.
+
+
+
+ Junit testing has not been implemented.
+
+
+ UML Class and Use Case
+ https://lucid.app/lucidchart/e10b4688-5ef1-4409-8b54-02346c0b6bf2/edit?viewport_loc=60475%2C12124%2C64102%2C27903%2CHWEp-vi-RSFO&invitationId=inv_0e79dc77-1265-4e9a-ab87-c3e8e03bf353
+ https://lucid.app/lucidchart/a5707ff0-7418-4b7a-ad10-40c94d1d468f/edit?viewport_loc=-967%2C-1822%2C8500%2C3700%2C0_0&invitationId=inv_a7bcba06-2223-49b0-8eba-ec743aeab54e
+
+ 
+ References and links
+ https://angrybirdsfanon.fandom.com/wiki/Red_Pig?file=Red_pig.png
+ https://www.youtube.com/watch?v=Uxhb3IHKMQk&ab_channel=LetsMakeAutomationEasy-PradeepNailwal
+ https://www.geeksforgeeks.org/serialization-in-java/
+ https://stackoverflow.com/questions/19958597/libgdx-catapult-trajectory
+
+
+-------------------------- STEPS TO RUN THE GAME IN INTELLIJ IDEA -------------------------------------
+  - Step 1: Download the UpdatedBirdsAngry zip file from the github repository.
+  - Step 2: Unzip the file in desktop.
+  - Step 3: Now Open the Intellij Idea and select the BirdsArgry File and open it.
+  - Step 4: Now Search for 'lwjgl3' file open it, lwjgl3-> src -> main -> java -> com.BirdsAngry.lwjgl3.
+  - Step 5: Now in com.BirdsAngry.lwjgl3, Select Lwjgl3Launcher.
+  - Step 6: Now After opening it, click on the Run option at top right corner and the game will start.
+
+
+
+
