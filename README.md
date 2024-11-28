@@ -244,7 +244,12 @@ Bonus -
   - Step 5: Now in com.BirdsAngry.lwjgl3, Select Lwjgl3Launcher.
   - Step 6: Now After opening it, click on the Run option at top right corner and the game will start.
 
-// I have added different sctructures for different levels 
+
+28/11/24
+I have added different sctructures for different levels 
+Two Junit test has also been implemented to check if all the pigs are dead by simply mimicking the objects anf level1 methods. Other one is to check the bird position.
+Junit test is giving dependency errors 
+
 
 
 
