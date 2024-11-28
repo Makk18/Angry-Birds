@@ -219,12 +219,7 @@ Bonus -
 - blue bird splits into three upon the click
 - even though i had mentioned to include the bombing effect for tnts and blackbird , but the same has not been implemented in view of the shortage of time for the deadline.
 
-
-
- Junit testing has not been implemented.
-
-
- UML Class and Use Case
+UML Class and Use Case
  https://lucid.app/lucidchart/e10b4688-5ef1-4409-8b54-02346c0b6bf2/edit?viewport_loc=60475%2C12124%2C64102%2C27903%2CHWEp-vi-RSFO&invitationId=inv_0e79dc77-1265-4e9a-ab87-c3e8e03bf353
  https://lucid.app/lucidchart/a5707ff0-7418-4b7a-ad10-40c94d1d468f/edit?viewport_loc=-967%2C-1822%2C8500%2C3700%2C0_0&invitationId=inv_a7bcba06-2223-49b0-8eba-ec743aeab54e
 
