@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.BirdsAngry.Level1Test" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-28T13:44:37" hostname="ORANGUTAN" time="0.005">
+  <properties/>
+  <testcase name="classMethod" classname="com.BirdsAngry.Level1Test" time="0.005">
+    <failure message="com.badlogic.gdx.utils.SharedLibraryLoadRuntimeException: Couldn't load shared library 'gdx64.dll' for target: Windows 11, 64-bit" type="com.badlogic.gdx.utils.SharedLibraryLoadRuntimeException">com.badlogic.gdx.utils.SharedLibraryLoadRuntimeException: Couldn't load shared library 'gdx64.dll' for target: Windows 11, 64-bit
+	at app//com.badlogic.gdx.utils.SharedLibraryLoader.load(SharedLibraryLoader.java:128)
+	at app//com.badlogic.gdx.utils.GdxNativesLoader.load(GdxNativesLoader.java:30)
+	at app//com.badlogic.gdx.backends.headless.HeadlessNativesLoader.load(HeadlessNativesLoader.java:24)
+	at app//com.badlogic.gdx.backends.headless.HeadlessApplication.&lt;init&gt;(HeadlessApplication.java:64)
+	at app//com.BirdsAngry.Level1Test.initHeadless(Level1Test.java:77)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@22.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@22.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: com.badlogic.gdx.utils.SharedLibraryLoadRuntimeException: Unable to read file for extraction: gdx64.dll
+	at app//com.badlogic.gdx.utils.SharedLibraryLoader.readFile(SharedLibraryLoader.java:137)
+	at app//com.badlogic.gdx.utils.SharedLibraryLoader.loadFile(SharedLibraryLoader.java:293)
+	at app//com.badlogic.gdx.utils.SharedLibraryLoader.load(SharedLibraryLoader.java:124)
+	... 34 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
